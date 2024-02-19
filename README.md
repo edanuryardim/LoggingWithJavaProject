@@ -12,12 +12,12 @@
 
 ### XML Konfigürasyon Dosyasındaki Spesifik Paket Ayarı
 XML konfigürasyon dosyasında belirli bir paket için log seviyesi ayarlamak için aşağıdaki ayarları kullanabilirsiniz:
-
-
+``` 
 <Logger name="rvcdemo1" level="info" additivity="false">
     <AppenderRef ref="file"  />
     <AppenderRef ref="ABC"  />
-</Logger> 
+</Logger>
+```
 
 
 
