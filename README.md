@@ -17,7 +17,7 @@ XML konfigürasyon dosyasında belirli bir paket için log seviyesi ayarlamak i�
 <Logger name="rvcdemo1" level="info" additivity="false">
     <AppenderRef ref="file"  />
     <AppenderRef ref="ABC"  />
-</Logger>
+</Logger> ```
 
 
 
