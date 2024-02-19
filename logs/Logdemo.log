@@ -1,0 +1,15 @@
+14:24:23 [main] INFO  rvcdemo1.LoggingDemo - Click Successfull
+14:24:23 [main] ERROR rvcdemo1.LoggingDemo - DB Connection failed
+14:24:23 [main] FATAL rvcdemo1.LoggingDemo - This is fatal
+14:24:23 [main] INFO  rvcdemo1.LoggingDemo - Click Successfull
+14:24:23 [main] ERROR rvcdemo1.LoggingDemo - DB Connection failed
+14:24:23 [main] FATAL rvcdemo1.LoggingDemo - This is fatal
+14:24:23 [main] INFO  rvcdemo1.LoggingDemo - Click Successfull
+14:24:23 [main] ERROR rvcdemo1.LoggingDemo - DB Connection failed
+14:24:23 [main] FATAL rvcdemo1.LoggingDemo - This is fatal
+14:24:23 [main] INFO  rvcdemo1.LoggingDemo - Click Successfull
+14:24:23 [main] ERROR rvcdemo1.LoggingDemo - DB Connection failed
+14:24:23 [main] FATAL rvcdemo1.LoggingDemo - This is fatal
+14:24:23 [main] INFO  rvcdemo1.LoggingDemo - Click Successfull
+14:24:23 [main] ERROR rvcdemo1.LoggingDemo - DB Connection failed
+14:24:23 [main] FATAL rvcdemo1.LoggingDemo - This is fatal

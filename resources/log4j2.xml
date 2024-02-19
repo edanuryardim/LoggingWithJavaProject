@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
+	<Properties>
+	<Property name="filename">./logs</Property>
+	</Properties>
   <Appenders>
+	  <RollingFile name="file" 
+	  filename="${filename}/Logdemo.log"
+	  filePattern="${filename}/Logdemo-%d{HH-mm-ss-SSS}.Log">
+	  <PatternLayout>
+		  <pattern>%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n </pattern>
+	  </PatternLayout>
+	  <SizeBasedTriggeringPolicy size="1 KB" />
+	  </RollingFile>
     <Console name="ABC" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
     </Console>
   </Appenders>
   <Loggers>
-	  <Logger name="rvcdemo1" level="trace" additivity="false">
+	  <Logger name="rvcdemo1" level="info" additivity="false">
+		    <AppenderRef ref="file"  />
 		  <AppenderRef ref="ABC"  />
 		   
 	  </Logger>
-    <Root level="trace">
+    <Root level="fatal">
       <AppenderRef ref="ABC"/>
+         <AppenderRef ref="file"  />
     </Root>
   </Loggers>
 </Configuration>
