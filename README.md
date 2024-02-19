@@ -13,11 +13,11 @@
 ### XML Konfigürasyon Dosyasındaki Spesifik Paket Ayarı
 XML konfigürasyon dosyasında belirli bir paket için log seviyesi ayarlamak için aşağıdaki ayarları kullanabilirsiniz:
 
-```xml
+
 <Logger name="rvcdemo1" level="info" additivity="false">
     <AppenderRef ref="file"  />
     <AppenderRef ref="ABC"  />
-</Logger> ```
+</Logger> 
 
 
 
@@ -29,6 +29,5 @@ Bu projede log mesajlarını dosyaya kaydetmek için özel bir konfigürasyon ya
 - Yedek Dosya Adı Şablonu: `Logdemo-%d{HH-mm-ss-SSS}.Log`
 - Dosya Formatı: `%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n`
 
-Bu konfigürasyon sayesinde log mesajları belirtilen dosyaya yazılmakta ve belirli bir boyuta ulaştığında yedek dosyalar oluşturulmaktadır. Proje hakkında detaylı bilgi almak için lütfen aşağıdaki bölümleri inceleyin.
+Bu konfigürasyon sayesinde log mesajları belirtilen dosyaya yazılmakta ve belirli bir boyuta ulaştığında yedek dosyalar oluşturulmaktadır.
 
----
